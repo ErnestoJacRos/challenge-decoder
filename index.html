@@ -99,7 +99,9 @@ let botonDos = document.querySelector("#desencriptor");
     var resultado = document.querySelector("#salida");
     resultado.select();
     document.execCommand("copy");
-    alert("Se ha copiado el texto ")
+    document.getElementById("munheco").style.display="show"
+      alert("Se ha copiado el texto ")
+      
   }
   let btnCopiar = document.querySelector("#copiar");
   btnCopiar.onclick = copiar;
