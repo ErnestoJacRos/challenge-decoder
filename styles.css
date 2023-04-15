@@ -59,7 +59,7 @@ section .contenedor1, .contenedor2{
     background-color: rgba(245, 245, 245, 0.041);
     resize: none;
     border: none;
-    margin-right: 30px;
+    margin-right: 70px;
     border-radius: 10px;
     color: #ffd60a;
 }
