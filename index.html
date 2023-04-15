@@ -89,6 +89,9 @@ function encriptar() {
       .replace(/ai/img, "a")
       .replace(/ober/img, "o")
       .replace(/ufat/img, "u");
+      document.getElementById("salida").style.display = "inherit"
+        document.getElementById("copiar").style.display = "inherit"
+        document.getElementById("munheco").style.display = "none"
     document.getElementById("salida").innerHTML = textoEncriptado;
     
 }
@@ -99,6 +102,10 @@ let botonDos = document.querySelector("#desencriptor");
     var resultado = document.querySelector("#salida");
     resultado.select();
     document.execCommand("copy");
+      document.getElementById("salida").style.display = "none"
+        document.getElementById("copiar").style.display = "none"
+        document.getElementById("munheco").style.display = "inherit"
+        document.getElementById("paUno").style.display = "inherit"
     alert("Se ha copiado el texto ")
   }
   let btnCopiar = document.querySelector("#copiar");
